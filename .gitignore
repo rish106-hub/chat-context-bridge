@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+.env
+*.local
+.vercel
+chatbridge-*.zip
+chatbridge-v*/
+*.tsbuildinfo
+.DS_Store

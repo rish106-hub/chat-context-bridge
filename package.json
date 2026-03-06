@@ -1,0 +1,11 @@
+{
+  "name": "chat-context-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently --names \"backend,extension\" --prefix-colors \"green,blue\" \"npm --prefix backend run dev\" \"npm --prefix extension run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
